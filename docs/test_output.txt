@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.7.0 -- /home/manas/build/ltar_venv/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/Users/Manas/Downloads/Auto Job Applier/Total Job Application process flow
+configfile: pytest.ini
+collecting ... collected 9 items
+
+tests/test_ranker.py::test_config_space_has_512_configs PASSED           [ 11%]
+tests/test_ranker.py::test_probes_are_8_and_in_space PASSED              [ 22%]
+tests/test_ranker.py::test_shapes_are_12_and_distinct PASSED             [ 33%]
+tests/test_ranker.py::test_feature_extraction_is_deterministic_and_right_length PASSED [ 44%]
+tests/test_ranker.py::test_feature_block_dims_match_config PASSED        [ 55%]
+tests/test_ranker.py::test_calibration_recovers_linear_relationship PASSED [ 66%]
+tests/test_ranker.py::test_build_training_set_penalizes_invalid_configs PASSED [ 77%]
+tests/test_ranker.py::test_gemm_kernel_matches_fp64_oracle PASSED        [ 88%]
+tests/test_ranker.py::test_gemm_kernel_handles_non_divisible_shapes PASSED [100%]
+
+============================== 9 passed in 2.98s ===============================

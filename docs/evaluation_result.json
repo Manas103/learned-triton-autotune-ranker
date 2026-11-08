@@ -1,0 +1,218 @@
+{
+  "total_budget_per_shape": 31,
+  "pct_of_space_measured": 6.05,
+  "mean_pct_of_exhaustive_best": 69.26333737776403,
+  "median_pct_of_exhaustive_best": 81.18615664968142,
+  "min_pct_of_exhaustive_best": 18.599138034853144,
+  "max_pct_of_exhaustive_best": 107.56302798461778,
+  "regret_distribution_pct": [
+    -7.56,
+    -1.22,
+    5.53,
+    6.81,
+    16.27,
+    18.81,
+    30.31,
+    33.33,
+    38.5,
+    71.78,
+    74.88,
+    81.4
+  ],
+  "mean_wall_clock_cut_x": 3.1192058589053104,
+  "median_wall_clock_cut_x": 2.625033810403661,
+  "per_shape": [
+    {
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 3.2767999917268756e-05,
+      "found_best_time_s": 3.0463999137282373e-05,
+      "regret_ratio": 0.9296874760191826,
+      "pct_of_exhaustive_best": 107.56302798461778,
+      "exhaustive_wall_clock_s": 0.9760298950000106,
+      "ours_wall_clock_s": 0.6926823050002895,
+      "wall_clock_cut_x": 1.4090585077088156
+    },
+    {
+      "shape": [
+        512,
+        512,
+        512
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 3.174399957060814e-05,
+      "found_best_time_s": 3.1360000371932985e-05,
+      "regret_ratio": 0.9879032508861706,
+      "pct_of_exhaustive_best": 101.22448722615077,
+      "exhaustive_wall_clock_s": 0.8972162840000237,
+      "ours_wall_clock_s": 0.39742961999991167,
+      "wall_clock_cut_x": 2.257547597987848
+    },
+    {
+      "shape": [
+        1024,
+        1024,
+        1024
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 6.937599927186966e-05,
+      "found_best_time_s": 7.344000041484833e-05,
+      "regret_ratio": 1.0585793528833038,
+      "pct_of_exhaustive_best": 94.46622941173484,
+      "exhaustive_wall_clock_s": 1.0232443770000827,
+      "ours_wall_clock_s": 0.38980236099996546,
+      "wall_clock_cut_x": 2.625033810403661
+    },
+    {
+      "shape": [
+        2048,
+        2048,
+        2048
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 0.0003082239925861359,
+      "found_best_time_s": 0.00033075198531150817,
+      "regret_ratio": 1.0730896791529836,
+      "pct_of_exhaustive_best": 93.18885638610604,
+      "exhaustive_wall_clock_s": 4.360719272000097,
+      "ours_wall_clock_s": 0.5169209430000592,
+      "wall_clock_cut_x": 8.43595008298899
+    },
+    {
+      "shape": [
+        512,
+        2048,
+        512
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 3.686400130391121e-05,
+      "found_best_time_s": 5.289600044488907e-05,
+      "regret_ratio": 1.4348957946482304,
+      "pct_of_exhaustive_best": 69.69147193334366,
+      "exhaustive_wall_clock_s": 0.9999984159999258,
+      "ours_wall_clock_s": 0.36837209700024687,
+      "wall_clock_cut_x": 2.7146421353386483
+    },
+    {
+      "shape": [
+        2048,
+        512,
+        512
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 3.2767999917268756e-05,
+      "found_best_time_s": 4.915200173854828e-05,
+      "regret_ratio": 1.5000000568434189,
+      "pct_of_exhaustive_best": 66.6666641402926,
+      "exhaustive_wall_clock_s": 0.7556028480003079,
+      "ours_wall_clock_s": 0.3739635689998977,
+      "wall_clock_cut_x": 2.020525288121086
+    },
+    {
+      "shape": [
+        1024,
+        4096,
+        256
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 7.88479968905449e-05,
+      "found_best_time_s": 9.712000191211701e-05,
+      "regret_ratio": 1.231737085812553,
+      "pct_of_exhaustive_best": 81.18615664968142,
+      "exhaustive_wall_clock_s": 1.6026043340002616,
+      "ours_wall_clock_s": 0.42360573899986775,
+      "wall_clock_cut_x": 3.783245094327586
+    },
+    {
+      "shape": [
+        256,
+        4096,
+        1024
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 8.499199897050858e-05,
+      "found_best_time_s": 0.00010150399804115296,
+      "regret_ratio": 1.1942770998523506,
+      "pct_of_exhaustive_best": 83.73266138349557,
+      "exhaustive_wall_clock_s": 1.5774339800000234,
+      "ours_wall_clock_s": 0.38415849000011804,
+      "wall_clock_cut_x": 4.106206217125486
+    },
+    {
+      "shape": [
+        2048,
+        2048,
+        256
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 6.108799949288369e-05,
+      "found_best_time_s": 9.932799637317657e-05,
+      "regret_ratio": 1.6259821437555435,
+      "pct_of_exhaustive_best": 61.5012903948805,
+      "exhaustive_wall_clock_s": 1.1879428489996826,
+      "ours_wall_clock_s": 0.3738795750000463,
+      "wall_clock_cut_x": 3.177340856342675
+    },
+    {
+      "shape": [
+        256,
+        2048,
+        2048
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 5.894400179386139e-05,
+      "found_best_time_s": 0.00020889599621295928,
+      "regret_ratio": 3.543973769265092,
+      "pct_of_exhaustive_best": 28.216913134979787,
+      "exhaustive_wall_clock_s": 1.1713073309997526,
+      "ours_wall_clock_s": 0.4573135139999067,
+      "wall_clock_cut_x": 2.561278630834407
+    },
+    {
+      "shape": [
+        512,
+        512,
+        4096
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 5.222399905323982e-05,
+      "found_best_time_s": 0.00020787200331687927,
+      "regret_ratio": 3.9803922925351602,
+      "pct_of_exhaustive_best": 25.12315185303225,
+      "exhaustive_wall_clock_s": 1.0685452749999058,
+      "ours_wall_clock_s": 0.4631473829999777,
+      "wall_clock_cut_x": 2.3071387515536435
+    },
+    {
+      "shape": [
+        4096,
+        512,
+        512
+      ],
+      "n_configs_measured": 31,
+      "pct_of_space_measured": 6.05,
+      "true_best_time_s": 5.523199960589409e-05,
+      "found_best_time_s": 0.0002969599962234497,
+      "regret_ratio": 5.376593249246757,
+      "pct_of_exhaustive_best": 18.599138034853144,
+      "exhaustive_wall_clock_s": 1.0679156619999048,
+      "ours_wall_clock_s": 0.5254188979997707,
+      "wall_clock_cut_x": 2.0325033341308765
+    }
+  ]
+}
